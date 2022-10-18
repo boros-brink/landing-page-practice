@@ -18,21 +18,28 @@
 }
 
 nav {
-    background-color: midnightblue;
+    background-color: rgb(2, 2, 80);
 }
 
 .logo {
-    color: white;
+    color: silver;
     font-weight: bolder;
     font-size: x-large;
     margin-left: 10%;
 }
 
-.items {
+.nav {
     display: flex;
-    color: white;
     gap: 2rem;
     margin: 0 10%;
     font-size: large;
 }
 
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+ul {
+    list-style-type: none;
+}
