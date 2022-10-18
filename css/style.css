@@ -43,3 +43,14 @@ a {
 ul {
     list-style-type: none;
 }
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+}
