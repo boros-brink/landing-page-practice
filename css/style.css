@@ -124,6 +124,8 @@ li {
     gap: 2rem;
     align-items: center;
     background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .boxes div div {
