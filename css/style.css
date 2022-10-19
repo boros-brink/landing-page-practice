@@ -126,7 +126,7 @@ li {
     background-color: white;
 }
 
-.boxes * {
+.boxes div div {
     background-color: white;
     padding: 7rem;
     border: 4px solid rgb(47, 201, 47);
@@ -143,9 +143,13 @@ h2 {
     max-width: 15rem;
     text-align: center;
     background-color: white;
-    margin-bottom: 6rem;
 }
 
 .title {
     background-color: white;
+}
+
+.texts p {
+    margin-bottom: 6rem;
+    margin-top: 1rem;
 }
