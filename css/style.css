@@ -155,3 +155,25 @@ h2 {
     margin-bottom: 6rem;
     margin-top: 1rem;
 }
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    max-width: 60rem;
+    font-weight: 300;
+}
+
+.container.four {
+    height: 30rem;
+    background-color: rgb(198, 198, 198);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container.four * {
+    background-color: rgb(198, 198, 198);
+}
+
+.author {
+    margin-left: 39%;
+}
