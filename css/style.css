@@ -177,3 +177,27 @@ h2 {
 .author {
     margin-left: 39%;
 }
+
+.container.five {
+    height: 26rem;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container.inside {
+    flex-basis: 35%;
+    width: 70%;
+    border-radius: 1rem;
+    background-color: #19af41;
+    justify-content: space-around;
+}
+
+.container.inside * {
+    background-color: #19af41;
+    color: white;
+}
+
+.box.two {
+    border: 2px solid white;
+}
