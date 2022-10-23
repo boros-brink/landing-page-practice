@@ -201,3 +201,10 @@ h2 {
 .box.two {
     border: 2px solid white;
 }
+
+.container.six {
+    justify-content: center;
+    height: 3rem;
+    color: white;
+    font-weight: 300;
+}
